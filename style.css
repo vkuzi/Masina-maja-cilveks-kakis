@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 130vh;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+/* Car */
+.car {
+    display: flex;
+    align-items: center;
+    
+}
+
+.car-body {
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    border-top-left-radius: 100px !important; 
+    border-radius: 25px;
+    }
+
+.windows {
+        display: flex;
+        width: 200px;
+        justify-content: space-around;
+        position: relative;
+        top: 3px;
+     }
+.front-window, .back-window {
+         background-color:blue;
+         width: 50px;
+         height: 50px;
+         border-radius: 5px;
+         
+     }
+     
+.front-window {
+    position: relative;
+    left: 20px;
+    border-top-left-radius: 45px !important;
+    width: 50px;
+    height: 50px;
+}     
+.back-window {
+    height: 50px;
+    width: 100px;
+}
+
+.wheels {
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    position: relative;
+    top: 25px;
+
+}
+.right-wheel, .left-wheel {
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+   
+}
+
+.pipe {
+    height: 10px;
+    width: 15px;
+    background-color: gray;
+    position: relative;
+    top: 30px;
+
+}
+/* //Car */
+
+/* House */
+
+.house {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 150px;
+    left: 20px;
+
+    
+}
+
+.roof {
+    background-color: red;
+    height: 200px;
+    width: 250px;
+    position: relative;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+
+}
+
+
+.house-body {
+    background-color: orange;
+    height: 250px;
+    width: 250px;
+    
+}
+
+.window {
+    background-color: yellow;
+    height: 65px;
+    width: 80px;
+    position: relative;
+    top: 50px;
+    left: 45px;
+}
+
+.door {
+    background-color: brown;
+    height: 150px;
+    width: 75px;
+    position: relative;
+    top: 35px;
+    left: 150px;
+}
+
+/* // House /*
+
+/* Human */
+
+.human {
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    position: relative;
+    left: 45px;
+    
+}
+
+.head {
+    background-color: bisque;
+    width: 35px;
+    height: 35px;
+    border-radius: 45px;
+}
+
+.human-body {
+    display: flex;
+} 
+
+.torso {
+    background-color: blueviolet;
+    width: 45px;
+    height: 55px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+
+.left-hand, .right-hand {
+    background-color: bisque;
+    width: 10px;
+    height: 50px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.right-hand {
+    transform: rotate(-20deg);
+}
+
+.left-hand {
+    transform: rotate(20deg);
+}
+
+.legs {
+    width: 50px;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+.left-leg, .right-leg {
+    background-color: black;
+    width: 13px;
+    height: 55px;
+}
+
+/* // Human */
+
+/* Cat */
+
+.cat {
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    position: relative;
+    left: 80px;
+    top: 35px;
+    
+
+}
+
+.ears {
+    display: flex;
+    align-items:center;
+    position: relative;
+    width: 25px;
+    justify-content: space-between;
+    top: 5px;
+
+    
+}
+
+.left-ear, .right-ear {
+    background-color:orange;
+    width: 10px;
+    height: 10px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    position: relative;
+    right: 30px;
+    top: 4px;
+    
+}
+
+.left-ear {
+    transform: rotate(20deg);
+}
+
+.right-ear {
+    transform: rotate(-20deg);
+}
+
+.cat-head {
+    background-color:orange;
+    width: 25px;
+    height: 25px;
+    border-radius: 45px;
+    position: relative;
+    right: 30px;
+    top: 5px;
+}
+
+.wripper {
+    display: flex;
+    align-items:center;
+}
+
+.cat-body {
+    background-color:orange;
+    width: 70px;
+    height: 25px;
+    border-radius: 20px;
+}
+
+.tail {
+    background-color: orange;
+    height: 30px;
+    width: 6px;
+    position: relative;
+    bottom: 20px;
+    transform: rotate(25deg);
+    border-radius: 5px;
+
+
+
+}
+
+.cat-paws {
+    display: flex;
+    width: 60px;
+    justify-content: space-between;
+    position: relative;
+    bottom: 3px;
+}
+
+.paw-1, .paw-2, .paw-3, .paw-4 {
+    background-color: orange;
+    width: 6px;
+    height: 20px;
+    
+}
+
+.paw-4 {
+    position: relative;
+    height: 25px !important;
+    bottom: 5px !important;
+}
+
+
+
+
+
